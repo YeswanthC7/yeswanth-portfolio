@@ -5,7 +5,7 @@ import Home from './pages/Home';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/yeswanth-portfolio">
       <div className="flex">
         <Sidebar />
         <main className="flex-1 p-8 ml-1/6">
