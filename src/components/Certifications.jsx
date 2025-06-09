@@ -1,4 +1,3 @@
-// copilot: “Create a React Certifications component with Tailwind: white card, shadow, padding; H2 ‘Certifications & Skill Badges’; then list certifications with name, issuer, date, expires/ID; below render skill badges as shields.io images in a responsive grid.”
 import React from 'react';
 
 const certs = [
