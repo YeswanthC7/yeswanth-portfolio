@@ -1,4 +1,3 @@
-// copilot: “Create a React Skills component with Tailwind: white card, shadow, padding; H2 ‘Skills’; then grouped lists by category with headings and inline badges or tags.”
 import React from 'react';
 
 const skillGroups = [
