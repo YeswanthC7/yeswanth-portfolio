@@ -15,7 +15,7 @@ jobs:
       - run: npm install
       - run: npm run lint
         name: Lint code
-        # Fail workflow if lint errors are found
+        # Fail workflow if lint errors occur
       - run: npm run deploy
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
