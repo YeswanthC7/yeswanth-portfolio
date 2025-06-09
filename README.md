@@ -26,9 +26,9 @@ npm run build
 npm run deploy
 ```
 
-### Automatic deployment
+### Continuous integration
 
-A GitHub Actions workflow defined at `.github/workflows/deploy.yml` builds and deploys the site whenever changes are pushed to the `main` branch.
+A GitHub Actions workflow defined at `.github/workflows/deploy.yml` installs dependencies and runs `npm run lint` whenever changes are pushed to the `main` branch. Automatic deployment to GitHub Pages has been disabled.
 
 
 ## Expanding the ESLint configuration
