@@ -26,6 +26,11 @@ npm run build
 npm run deploy
 ```
 
+### Automatic deployment
+
+A GitHub Actions workflow defined at `.github/workflows/deploy.yml` builds and deploys the site whenever changes are pushed to the `main` branch.
+
+
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript
