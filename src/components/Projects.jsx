@@ -64,15 +64,15 @@ const projects = [
 
 export default function Projects() {
   return (
-    <section id="projects" className="bg-white rounded-lg shadow-md p-8">
-      <h2 className="text-2xl font-bold text-gray-900 mb-6">Projects</h2>
+    <section id="projects" className="bg-surface rounded-lg shadow-md p-8">
+      <h2 className="text-2xl font-bold text-accent mb-6">Projects</h2>
       {projects.map((proj) => (
         <div key={proj.title} className="mb-6">
-          <h3 className="text-xl font-semibold text-gray-800">{proj.title}</h3>
-          <p className="text-gray-600 mb-2">
+          <h3 className="text-xl font-semibold text-gray-200">{proj.title}</h3>
+          <p className="text-gray-400 mb-2">
             {proj.tech} &middot; {proj.date}
           </p>
-          <ul className="list-disc list-inside text-gray-700 space-y-2">
+          <ul className="list-disc list-inside text-gray-300 space-y-2">
             {proj.bullets.map((b, i) => (
               <li key={i}>{b}</li>
             ))}

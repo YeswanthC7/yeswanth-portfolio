@@ -23,19 +23,19 @@ const skillGroups = [
 
 export default function Skills() {
   return (
-    <section id="skills" className="bg-white rounded-lg shadow-md p-8">
-      <h2 className="text-2xl font-bold text-gray-900 mb-6">Skills</h2>
+    <section id="skills" className="bg-surface rounded-lg shadow-md p-8">
+      <h2 className="text-2xl font-bold text-accent mb-6">Skills</h2>
       <div className="space-y-6">
         {skillGroups.map((group) => (
           <div key={group.title}>
-            <h3 className="text-xl font-semibold text-gray-800 mb-2">
+            <h3 className="text-xl font-semibold text-gray-200 mb-2">
               {group.title}
             </h3>
             <div className="flex flex-wrap gap-2">
               {group.items.map((item) => (
                 <span
                   key={item}
-                  className="bg-gray-100 text-gray-800 px-3 py-1 rounded-full text-sm"
+                  className="bg-background text-gray-100 px-3 py-1 rounded-full text-sm"
                 >
                   {item}
                 </span>
