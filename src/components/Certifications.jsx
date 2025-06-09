@@ -50,16 +50,16 @@ const badges = [
 
 export default function Certifications() {
   return (
-    <section id="certifications" className="bg-white rounded-lg shadow-md p-8">
-      <h2 className="text-2xl font-bold text-gray-900 mb-6">
+    <section id="certifications" className="bg-surface rounded-lg shadow-md p-8">
+      <h2 className="text-2xl font-bold text-accent mb-6">
         Certifications & Skill Badges
       </h2>
 
       <div className="space-y-4 mb-8">
         {certs.map((c) => (
           <div key={c.name}>
-            <p className="text-gray-800 font-semibold">{c.name}</p>
-            <p className="text-gray-600">
+            <p className="text-gray-200 font-semibold">{c.name}</p>
+            <p className="text-gray-400">
               {c.issuer} &middot; {c.date}
               {c.expires && ` · Expires ${c.expires}`}
               {c.credential && ` · ${c.credential}`}
