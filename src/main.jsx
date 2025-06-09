@@ -4,7 +4,6 @@ import './index.css'
 import App from './App.jsx'
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
 import './index.css';    // ← Make sure this line is present
 
 createRoot(document.getElementById('root')).render(
