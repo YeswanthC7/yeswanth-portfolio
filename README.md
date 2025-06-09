@@ -23,7 +23,7 @@ npm run build
 ### Deploy to GitHub Pages
 
 ```bash
-npm run deploy
+GH_TOKEN=<your token> npm run deploy
 ```
 
 ### Automatic deployment

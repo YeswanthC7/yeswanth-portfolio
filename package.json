@@ -3,10 +3,14 @@
   "private": true,
   "version": "0.0.0",
   "homepage": "https://YeswanthC7.github.io/yeswanth-portfolio",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YeswanthC7/yeswanth-portfolio.git"
+  },
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
+    "deploy": "gh-pages -d dist -r https://$GH_TOKEN@github.com/YeswanthC7/yeswanth-portfolio.git",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
